@@ -1,0 +1,35 @@
+@mixin displaypropartis($di, $jc, $ai) {
+    display: $di;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
+@mixin comoncode($H, $W, $FZ, $C) {
+    height: $H;
+    width: $W;
+    font-size: $FZ;
+    color: $C;
+}
+
+@mixin fontstyle($fz, $fw, $col) {
+    font-size: $fz;
+    font-weight: $fw;
+    color: $col;
+}
+
+@mixin HiegthWidth($height, $width) {
+    height: $height;
+    width: $width;
+}
+
+@mixin Allborderstyle($bo, $br, $bg) {
+    border: $bo;
+    border-radius: $br;
+    background: $bg;
+}
+
+@mixin Positionstyle($po, $t, $l) {
+    position: $po;
+    top: $t;
+    left: $l;
+}
